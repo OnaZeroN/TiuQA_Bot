@@ -1,0 +1,21 @@
+[project]
+name = "tiuqa-bot"
+version = "0.1.0"
+description = "Tiu QA bot"
+requires-python = ">=3.13"
+dependencies = [
+    "aiogram>=3.22.0",
+    "aiogram-contrib>=1.1.4",
+    "aiogram-i18n>=1.4",
+    "chromadb>=1.0.20",
+    "langchain>=0.3.27",
+    "langchain-chroma>=0.2.5",
+    "langchain-community>=0.3.29",
+    "langchain-openai>=0.3.32",
+    "msgspec>=0.19.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.12.11",
+]
